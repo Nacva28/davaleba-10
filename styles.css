@@ -8,19 +8,25 @@
   background-color: rgb(230, 229, 229);
   height: 100vh;
 }
-
+.text h1 {
+  font-style: bold;
+  font-size: 42px;
+}
 .text {
   display: grid;
   place-items: center;
 }
 .text p {
-  font-size: 31.5px;
+  font-size: 40.5px;
+  color: #555151;
 }
 .text h4 {
   border: 1px solid rgb(230, 229, 229);
+  color: #46434385;
   height: 70px;
-  width: 500px;
+  width: 550px;
   text-align: center;
+  font-size: 18px;
 }
 .conatainer-ro {
   height: 70vh;
@@ -34,7 +40,7 @@
 .container-1 {
   border: 1px solid rgb(252, 248, 248);
   background-color: white;
-  width: 390px;
+  width: 388px;
   height: 250px;
   border-radius: 10px;
   border-top: 3px solid red;
@@ -47,8 +53,16 @@
 
 .svg-1 {
   height: 120px;
-  width: 315px;
+  width: 330px;
   display: flex;
   align-items: flex-end;
   justify-content: end;
+}
+
+.conatainer-ro p {
+  color: #535151;
+  filter: blur(0.3px);
+}
+.conatainer-ro h2 {
+  font-size: 27px;
 }
